@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/registration', function () {
-    return view('front.app');
+    return view('front.auth.auth');
 })->name('front.registration');
 
 Route::get('/', function () {
